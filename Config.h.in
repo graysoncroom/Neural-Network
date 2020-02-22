@@ -1,0 +1,11 @@
+//
+// Created by Grayson Croom on 2020-02-21.
+//
+
+#ifndef NEURAL_NETWORK_CONFIG_H_IN
+#define NEURAL_NETWORK_CONFIG_H_IN
+
+#define Neural_Network_VERSION_MAJOR @Neural_Network_VERSION_MAJOR@
+#define Neural_Network_VERSION_MINOR @Neural_Network_VERSION_MINOR@
+
+#endif //NEURAL_NETWORK_CONFIG_H_IN
