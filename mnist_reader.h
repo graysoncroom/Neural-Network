@@ -5,7 +5,6 @@
 #ifndef NEURAL_NETWORK_MNIST_READER_H
 #define NEURAL_NETWORK_MNIST_READER_H
 
-
 class mnist_reader {
 public:
     mnist_reader(std::string, std::string);
@@ -25,6 +24,5 @@ private:
 
     static int reverseInt(int);
 };
-
 
 #endif //NEURAL_NETWORK_MNIST_READER_H
