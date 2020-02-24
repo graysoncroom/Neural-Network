@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 configure_file(Config.h.in Config.h)
 
-add_executable(Neural_Network main.cpp mnist_reader.cpp mnist_reader.h)
+add_executable(Neural_Network main.cpp mnist_reader.cpp mnist_reader.h neuron_group.cpp neuron_group.h)
 
 target_include_directories(Neural_Network PUBLIC "${PROJECT_BINARY_DIR}")
